@@ -10,8 +10,8 @@ using Suciu_Bogdan_Lab8.Data;
 namespace Suciu_Bogdan_Lab8.Migrations
 {
     [DbContext(typeof(Suciu_Bogdan_Lab8Context))]
-    [Migration("20210108130344_BookCategory")]
-    partial class BookCategory
+    [Migration("20210108150348_BookCategory2")]
+    partial class BookCategory2
     {
         protected override void BuildTargetModel(ModelBuilder modelBuilder)
         {
