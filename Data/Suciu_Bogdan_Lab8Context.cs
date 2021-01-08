@@ -15,5 +15,9 @@ namespace Suciu_Bogdan_Lab8.Data
         }
 
         public DbSet<Suciu_Bogdan_Lab8.Models.Book> Book { get; set; }
+
+        public DbSet<Suciu_Bogdan_Lab8.Models.Publisher> Publisher { get; set; }
+
+        public DbSet<Suciu_Bogdan_Lab8.Models.Category> Category { get; set; }
     }
 }
